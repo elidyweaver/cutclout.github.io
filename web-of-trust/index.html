@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <title>web of trust</title>
+  <meta name="Keywords" content="nostr, a day in nostr">
+  <meta property="og:description" content="https://cutclout.com/images/cut-clout-social.png">
+  <meta property="og:image" content="https://cutclout.com/images/cut-clout-social.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="web of trust">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="https://cutclout.com/images/cut-clout-social.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body class="w3-white">
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
+        onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-amber">cut clout</a>
+      <!--- about --->
+      <a href="../about/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">about</a>
+      <!--- 101 --->
+      <a href="../101/index.html" alt="101" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">101</a>
+      <!--- core --->
+      <a href="../core/index.html" alt="core principles" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">core</a>
+      <!--- value4value --->
+      <a href="../value4value/index.html" alt="value 4 value" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">value4value</a>
+      <!--- web of trust --->
+      <a href="../web-of-trust/index.html" alt="web of trust" class="w3-bar-item w3-button w3-padding-large w3-light-grey w3-hover-amber w3-hide-small">web of trust</a>
+      <!--- culture --->
+      <a href="../culture/index.html" alt="culture" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">culture</a>
+      <!--- donate --->
+      <a href="https://donate.nostr-ings.com" target="new"
+        class="w3-bar-item w3-button w3-padding-large w3-white w3-hover-amber w3-hide-small">donate</a>
+    </div>
+  </div>
+
+  <!-- Navbar on small screens-->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <!--- cut clout --->
+    <a href="../index.html" alt="about" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">cut clout</a>
+    <!--- about --->
+    <a href="../about/index.html" alt="about" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">about</a>
+    <!--- 101 --->
+    <a href="../101/index.html" alt="101" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">101</a>
+    <!--- core --->
+    <a href="../core/index.html" alt="core" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">core</a>
+    <!--- value4value --->
+    <a href="../value4value/index.html" alt="value4value" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">value4value</a>
+    <!--- web of trust --->
+    <a href="../web-of-trust/index.html" alt="web of trust" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">web of trust</a>
+    <!--- culture --->
+    <a href="../culture/index.html" alt="culture" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">culture</a>
+    <!--- donate --->
+    <a href="https://donate.nostr-ings.com" target="new" class="w3-bar-item w3-button w3-padding-large w3-white w3-hover-amber"
+      onclick="myFunction()">donate</a>
+  </div>
+  <hr class="w3-border-black">
+  <div class="w3-content" style="max-width:1600px">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding">
+      <h1 class="w3-xxxlarge"><b>web of trust</b></h1>
+      <h2 class="w3-xlarge"></h2>
+    </header>
+    <hr>
+    <!-- Notes on Privacy-->
+    <div class="w3-container w3-left-align w3-padding-32" id="privacy">
+      <h2>On Privacy</h2>
+      <p class="w3-large">Everyday we open a window to peer through conversations, waving what seems to be a flag of FOMO into the nostr cyberspace. But is it really FOMO?</p>
+      <p class="w3-large">While, in other platforms, we may be distracted by ads and click-bait headlines that bury free human thought and conversation, today, we open our mobile phones to human connection, at nostr.</p>
+    </div>
+    <!-- Notes on Spam-->
+    <div class="w3-container w3-left-align w3-padding-32" id="spam">
+      <h2>How do you prove you're real?</h2>
+      <p class="w3-large">Each human being is so unique and creative in their own way, that, it is hard to fathom anyone wanting to be an impostor. Impostors exist, and it can be a challenge to know the difference.</p>
+      <p class="w3-large">If you know someone in real life, it is easy to exchange your npubs, but what happens when you don't?</p>
+      <p class="w3-large">In nostr you can tie your account to your website as a way of verifying you identity through what's called a NIP05. In some nostr products, you can see your name with an @yourwebsite.com This is particularly useful for content creators, proving you're the author, or you belong to that organization.</p>
+      <p class="w3-large">To help tell you apart from bots, some websites offer NIP05's. It doesn't end with your domain, it ends with theirs, but it is still one strung higher in the ladder of trust.</p>
+      <p class="w3-large">Combine that with other trust signals to reveal that unique mixture that makes you, you: Your interactions with the community, creating and sharing your own content, sharing what you find interesting, in other words, just being you is a trust signal.</p>
+      <p class="w3-large">What makes you who you are?</p>
+    </div>
+    <!-- Notes on Spam-->
+    <div class="w3-container w3-left-align w3-padding-32" id="spam">
+      <h2>On Spam</h2>
+      <h3>Something is out there...</h3>
+      <p class="w3-large">As your posts float in cyberspace and get shared between servers, called relays, something else is out there too. No, it's not an alien creature from a sci-fi movie, it's spam. A bit like galactic trash, it can fill feeds with mountains of gibberish, preventing real content and conversation from happening.</p>
+      <p class="w3-large">One of the ways some in the nostr community are addressing spam, is through paid relays. At this moment, the relays offering this service, use it like a ticket in, where you pay a few sats (1,000 to 5,000) to cross through their gates. Spam is generated in such large numbers, that having to pay relays, can add up quickly, hence deterring its practice. Less spam leads to a bit of zen, or perhaps eden.</p>
+      <p class="w3-large">Nostr thrives on freedom of expression. There is no perfect solution to address spam. Multiple avenues with different approaches will let people choose their nostr paths, whether they have sats to give or not.</p>
+      <p class="w3-large">What solutions are you seeing to address spam?</p>
+    </div>
+  <!-- END BLOG ENTRIES -->
+  </div>
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32 w3-black">
+    <div class="w3-twothird">
+      <h3>cut clout</h3>
+      <p>by elidy weaver
+      <p>healing our connection to technology</p>
+      <p class="npub">nostr: npub1a7n2h5y3gt90y00mwrknhx74fyzzjqw25ehkscje58x9tfyhqd5snyvfnu</p>
+      <a href="https://donate.nostr-ings.com/" class="w3-btn w3-white w3-hover-amber w3-round" target="new"><i
+          class="fa fa-bolt w3-margin-right"></i> donate</a>
+
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>tags</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">INB4 tags</span>
+      </p>
+    </div>
+  </footer>
+  <div class="w3-row w3-black">
+    <div class="w3-col" style="width:20%">
+      <p></p>
+    </div>
+    <div class="w3-col w3-center" style="width:60%">
+      <p>Built to be free with <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="text-light"
+          target="new">CC0 1.0</a></p><br>
+    </div>
+    <div class="w3-col" style="width:20%">
+      <p></p>
+    </div>
+  </div>
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>

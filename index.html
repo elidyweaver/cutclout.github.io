@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial scale=1.0">
-  <title>cut clout: a day in nostr</title>
+  <title>cut clout</title>
   <meta name="Keywords" content="nostr, a day in nostr">
   <meta name="Description" content="healing our connection to technology">
   <meta property="og:image" content="">
@@ -14,8 +13,7 @@
   <meta property="og:image:height" content="640">
   <meta property="og:description" content="healing our connection to technology">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="@elidyweaver">
-  <meta name="twitter:title" content="cut clout: a day in nostr">
+  <meta name="twitter:title" content="cut clout">
   <meta name="twitter:description" content="healing our connection to technology">
   <meta name="twitter:image" content="">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -26,26 +24,47 @@
 </head>
 
 <body class="w3-white">
-
   <!-- Navbar -->
   <div class="w3-top">
     <div class="w3-bar w3-black w3-card">
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
         onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">CUT CLOUT</a>
-      <a href="about/index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
-      <a href="#a-day-in-nostr" class="w3-bar-item w3-button w3-padding-large w3-hide-small">A DAY IN NOSTR</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">cut clout</a>
+      <!--- about --->
+      <a href="about/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">about</a>
+      <!--- 101 --->
+      <a href="101/index.html" alt="101" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">101</a>
+      <!--- core --->
+      <a href="core/index.html" alt="core principles" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">core</a>
+      <!--- value4value --->
+      <a href="value4value/index.html" alt="value 4 value" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">value4value</a>
+      <!--- web of trust --->
+      <a href="web-of-trust/index.html" alt="web of trust" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">web of trust</a>
+      <!--- culture --->
+      <a href="culture/index.html" alt="culture" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">culture</a>
+      <!--- donate --->
       <a href="https://donate.nostr-ings.com" target="new"
-        class="w3-bar-item w3-button w3-padding-large w3-hide-small">DONATE</a>
+        class="w3-bar-item w3-button w3-padding-large w3-white w3-hover-amber w3-hide-small">donate</a>
     </div>
   </div>
 
   <!-- Navbar on small screens-->
   <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a href="about/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
-    <a href="#a-day-in-nostr" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">A DAY IN NOSTR</a>
-    <a href="https://donate.nostr-ings.com" target="new" class="w3-bar-item w3-button w3-padding-large"
-      onclick="myFunction()">DONATE</a>
+    <!--- about --->
+    <a href="about/index.html" alt="about" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">about</a>
+    <!--- 101 --->
+    <a href="101/index.html" alt="101" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">101</a>
+    <!--- core --->
+    <a href="core/index.html" alt="core" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">core</a>
+    <!--- value4value --->
+    <a href="value4value/index.html" alt="value4value" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">value4value</a>
+    <!--- web of trust --->
+    <a href="web-of-trust/index.html" alt="web of trust" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">web of trust</a>
+    <!--- culture --->
+    <a href="culture/index.html" alt="culture" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">culture</a>
+    <!--- donate --->
+    <a href="https://donate.nostr-ings.com" target="new" class="w3-bar-item w3-button w3-padding-large w3-white w3-hover-amber"
+      onclick="myFunction()">donate</a>
   </div>
 
   <hr class="w3-border-black">
@@ -55,327 +74,40 @@
     <header class="w3-container w3-center w3-padding-48">
       <h1 class="w3-xxxlarge"><b>CUT CLOUT</b></h1>
       <h2>healing our connection to technology</h2>
+      <h3>nostr + bitcoin</h3>
     </header>
     <!-- cut clout thought -->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
-      <p class="w3-large w3-justify">A protocol like nostr is interoperable simplicity, yet it is not a dead language.
-        Its code and its upper layers get written like gears in constant movement, churning new lines into websites and
-        apps. It isn't code that sparks out of nowhere. It's molded and reshaped by open source communities
-        brainstorming ideas, listening closely to the people who use their products, and bringing those ideas to life.
-        Each step forward carries new challenges, as the gears shape PR after PR, with products built and strengthened
-        over time. </p>
-    </div>
-
     <!-- a day in nostr-->
-    <div class="w3-black">
-      <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="a-day-in-nostr">
-        <h2 class="w3-wide w3-center">A DAY IN NOSTR</h2>
-        <!--- row 07 --->
-        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-          <!--- post 21 --->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-04.html#post-21"><img src="images/posts/cutclout-21.png" style="width:100%"
-                class="w3-hover-opacity w3-image w3-greyscale" alt="post 21"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.21</b></p>
-              <p class="w3-opacity">Sat Apr 08, 2023</p>
-              <h2>Ideas<br>and gaps</h2>
-              <a href="a-day-in-nostr/week-04.html#post-21"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
+  <div class="w3-content w3-black w3-padding-32" style="max-width:100%">
+        <!--- row 00 --->
+        <div class="w3-row-padding" style="margin:0 -16px">
+        <!--- 101 --->
+          <div class="w3-third w3-display-container">
+           <div class="w3-card w3-padding">
+             <a href="101/index.html" class=""><img src="images/posts/cutclout-13.png" style="width:100%" class="w3-hover-opacity w3-image w3-greyscale" alt="101">
+             <div class="w3-container">
+               <h4 class="w3-black w3-display-middle w3-large w3-padding">101</h4></a>
+             </div>
+           </div>
+         </div>
+         <!--- core --->
+           <div class="w3-third w3-display-container">
+            <div class="w3-card w3-padding">
+              <a href="core/index.html" class=""><img src="images/posts/cutclout-06.png" style="width:100%" class="w3-hover-opacity w3-image w3-greyscale" alt="core">
+              <div class="w3-container">
+                <h4 class="w3-black w3-display-middle w3-large w3-padding">core principles</h4></a>
+              </div>
             </div>
           </div>
-          <!--- end post --->
-          <!--- post 20 --->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-04.html#post-20"><img src="images/posts/cutclout-20.png" style="width:100%"
-                class="w3-hover-opacity w3-image w3-greyscale" alt="post 20"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.20</b></p>
-              <p class="w3-opacity">Mon Apr 03, 2023</p>
-              <h2>Nostr moves <br>fast</h2>
-              <a href="a-day-in-nostr/week-04.html#post-20"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 19 --->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-04.html#post-19"><img src="images/posts/cutclout-19.png" style="width:100%"
-                class="w3-hover-opacity w3-image w3-greyscale" alt="post 19"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.19</b></p>
-              <p class="w3-opacity">Sun Apr 02, 2023</p>
-              <h2>"I got your back." &#126;nostr</h2>
-              <a href="a-day-in-nostr/week-04.html#post-19"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-        </div>
-        <!--- end row 6 -->
-        <!--- row 06 -->
-        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-          <!--- post 18 --->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-04.html#post-18"><img src="images/posts/cutclout-18.png" style="width:100%"
-                class="w3-hover-opacity w3-image w3-greyscale" alt="post 18"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.18</b></p>
-              <p class="w3-opacity">Sat March 11, 2023</p>
-              <h2>Nostrica <br>vibe</h2>
-              <a href="a-day-in-nostr/week-04.html#post-18"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 17--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-03.html#post-17"><img src="images/posts/cutclout-17.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 17"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.17</b></p>
-              <p class="w3-opacity">Sat Feb 11 2023</p>
-              <h2>Unidentified flying objects</h2>
-              <a href="a-day-in-nostr/week-03.html#post-17"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 16--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-03.html#post-16"><img src="images/posts/cutclout-16.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 16"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.16</b></p>
-              <p class="w3-opacity">Fri Feb 10, 2023</p>
-              <h2>Get your zappers ready</h2>
-              <a href="a-day-in-nostr/week-03.html#post-16"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-        </div>
-        <!--- end row 6 -->
-        <!--- row 05 -->
-        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-          <!--- post 12--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-03.html#post-15"><img src="images/posts/cutclout-15.png" style="width:100%"
-                class="w3-hover-opacity w3-image w3-greyscale" alt="post 15"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.15</b></p>
-              <p class="w3-opacity">Thu Feb 9, 2023</p>
-              <h2>Grateful for people innovating nostr</h2>
-              <a href="a-day-in-nostr/week-03.html#post-15"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 14--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-03.html#post-14"><img src="images/posts/cutclout-14.png" style="width:100%"
-                class="w3-hover-opacity w3-image w3-greyscale" alt="post 14"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.14</b></p>
-              <p class="w3-opacity">Wed Feb 8 2023</p>
-              <h2>How do you prove you're real?</h2>
-              <a href="a-day-in-nostr/week-03.html#post-14"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 13--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-03.html#post-13"><img src="images/posts/cutclout-13.png" style="width:100%"
-                class="w3-hover-opacity w3-image w3-greyscale" alt="post 13"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.13</b></p>
-              <p class="w3-opacity">Tues Feb 7, 2023</p>
-              <h2>My handle is available?</h2>
-              <a href="a-day-in-nostr/week-03.html#post-13"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-        </div>
-        <!--- end row 5 -->
-        <!--- row 04 -->
-        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-          <!--- post 12--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-03.html#post-12"><img src="images/posts/cutclout-12.png" style="width:100%"
-                class="w3-hover-opacity w3-image w3-greyscale" alt="post 12"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.12</b></p>
-              <p class="w3-opacity">Mon Feb 6, 2023</p>
-              <h2>You're the keeper of your keys</h2>
-              <a href="a-day-in-nostr/week-03.html#post-12"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 11--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-02.html#post-11"><img src="images/posts/cutclout-11.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 11"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.11</b></p>
-              <p class="w3-opacity">Sun Feb 5, 2023</p>
-              <h2>Where's the delete button?</h2>
-              <a href="a-day-in-nostr/week-02.html#post-11"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 10--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-02.html#post-10"><img src="images/posts/cutclout-10.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 10"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.10</b></p>
-              <p class="w3-opacity">Sat Feb 4, 2023</p>
-              <h2>Something is out there...</h2>
-              <a href="a-day-in-nostr/week-02.html#post-10"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-        </div>
-        <!--- end row 04 -->
-        <!--- row 03 -->
-        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-          <!--- post 09--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-02.html#post-09"><img src="images/posts/cutclout-09.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 09"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.09</b></p>
-              <p class="w3-opacity">Fri Feb 3, 2023</p>
-              <h2>Here's my npub.</h2>
-              <p>IRL QR codes</p>
-              <a href="a-day-in-nostr/week-02.html#post-09"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 08--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-02.html#post-08"><img src="images/posts/cutclout-08.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 08"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.08</b></p>
-              <p class="w3-opacity">Thu Feb 2, 2023</p>
-              <h2>Someone, please, translate</h2>
-              <a href="a-day-in-nostr/week-02.html#post-08"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 07--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-02.html#post-07"><img src="images/posts/cutclout-07.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 07"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.07</b></p>
-              <p class="w3-opacity">Wed Feb 1, 2023</p>
-              <h2>We broke...</h2>
-              <p>nostr & lightning</p>
-              <a href="a-day-in-nostr/week-02.html#post-07"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-        </div>
-        <!--- end row 03 -->
-        <!--- row 02 -->
-        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-          <!--- post 06--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-02.html#post-06"><img src="images/posts/cutclout-06.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 06"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.06</b></p>
-              <p class="w3-opacity">Tues Jan 31, 2023</p>
-              <h2>One client's win is a win for all of nostr</h2>
-              <a href="a-day-in-nostr/week-02.html#post-06"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 05--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-02.html#post-05"><img src="images/posts/cutclout-05.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 05"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.05</b></p>
-              <p class="w3-opacity">Mon Jan 30, 2023</p>
-              <h2>What's the gift we leave in life, after we're gone?</h2>
-              <a href="a-day-in-nostr/week-02.html#post-05"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 04--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-01.html#post-04"><img src="images/posts/cutclout-04.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 04"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.04</b></p>
-              <p class="w3-opacity">Sun Jan 29, 2023</p>
-              <h2>On nostrica's wish list</h2>
-              <p>To nostr & bitcoin santa's</p>
-              <a href="a-day-in-nostr/week-01.html#post-04"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-        </div>
-        <!--- end row 02 -->
-        <!--- row 01 -->
-        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-          <!--- post 03--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-01.html#post-03"><img src="images/posts/cutclout-03.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 03"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.03</b></p>
-              <p class="w3-opacity">Sat Jan 28, 2023</p>
-              <h2>Privacy win</h2>
-              <p>on snort.social<br>small steps forward can make a big difference</p>
-              <a href="a-day-in-nostr/week-01.html#post-03"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 02--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-01.html#post-02"><img src="images/posts/cutclout-02.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 02"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.02</b></p>
-              <p class="w3-opacity">Fri Jan 27, 2023</p>
-              <h2>Santa's PoW &amp; network effects</h2>
-              <p>Do you know your developer?</p>
-              <a href="a-day-in-nostr/week-01.html#post-02"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-          <!--- post 01--->
-          <div class="w3-third w3-margin-bottom">
-            <a href="a-day-in-nostr/week-01.html#post-01"><img src="images/posts/cutclout-01.png" style="width:100%"
-                class="w3-hover-opacity w3-image" alt="post 01"></a>
-            <div class="w3-container w3-white">
-              <p><b>post.01</b></p>
-              <p class="w3-opacity">Thu Jan 26, 2023</p>
-              <h2>blurred</h2>
-              <p>Nostr is a place to openly share challenges and possible solutions</p>
-              <a href="a-day-in-nostr/week-01.html#post-01"
-                class="w3-button w3-black w3-hover-amber w3-margin-bottom">read</a>
-            </div>
-          </div>
-          <!--- end post --->
-        </div>
+          <!--- core --->
+            <div class="w3-third w3-display-container">
+             <div class="w3-card w3-padding">
+               <a href="culture/index.html" class=""><img src="images/posts/cutclout-11.png" style="width:100%" class="w3-hover-opacity w3-image w3-greyscale" alt="culture">
+               <div class="w3-container">
+                 <h4 class="w3-black w3-display-middle w3-large w3-padding">culture</h4></a>
+               </div>
+             </div>
+           </div>
         <!--- end row 01 -->
       </div>
     </div>
