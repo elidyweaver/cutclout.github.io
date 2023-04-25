@@ -3,3 +3,45 @@
 }
 body {font-family: "Open Sans"}
 h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+
+/* Tooltip */
+.tooltip {
+position: relative;
+display: inline-block;
+border-bottom: 1px dashed black;
+}
+
+.tooltip .tooltiptext-bottom {
+background-color: black;
+border-radius: 10%;
+color: #fff;
+font-size: .8em;
+line-height: 1.3;
+padding: 5% 15%;
+text-align: left;
+visibility: hidden;
+width: 150%;
+/* Tooltip positioning */
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -50%;
+}
+
+.tooltip:hover .tooltiptext-bottom {
+visibility: visible;
+}
+
+.tooltip .tooltiptext-bottom::after {
+content: " ";
+position: absolute;
+bottom: 100%; /* top */
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: transparent transparent black transparent;
+}
+
+/* End Tooltip */
