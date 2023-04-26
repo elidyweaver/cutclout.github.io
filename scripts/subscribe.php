@@ -19,7 +19,7 @@ $sender = $recipient;
 
 # MAIL BODY
 $body .= "Name: ".$_REQUEST['Name']." \n";
-$body .= "Npub: ".$_REQUEST['NostrNpub']." \n";
+$body .= "NostrNpub: ".$_REQUEST['NostrNpub']." \n";
 # add more fields here if required
 
 ## SEND MESSGAE ##
