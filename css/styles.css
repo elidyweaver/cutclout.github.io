@@ -1,8 +1,86 @@
+/* pages and rabbit holes */
+:root {
+   --black: #000000;
+   --text: #f1f1f1;
+   --blue-dark: #3145FE;
+   --blue: #267DFE;
+   --blue-light: #5D9EFF;
+   --green-dark: #01731A;
+   --green: #008E1F;
+   --green-light: #6DEE8A;
+   --grey: #B9A9CE;
+   --offblack: #1B1B1B;
+   --offwhite: #f1f1f1;
+   --orange-dark: #B86306;
+   --orange: #F17E00;
+   --orange-light: #FFC27F;
+   --pink-dark: #C305A5;
+   --pink: #F31BDE;
+   --pink-light: #FF80F2;
+   --purple-dark: #3E0D7D;
+   --purple: #6E1ED2;
+   --purple-light: #B47BFA;
+   --teal-dark: #009998;
+   --teal: #2DFFFE;
+   --teal-light: #A9FFFF;
+   --yellow-dark: #F2BF29;
+   --yellow: #ffc107;
+   --yellow-light: #FDE89F;
+   --white: #ffffff;
+         }
+/* body */
+
+body {font-family: "Open Sans"}
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+/* sign-up form */
+.zinecontainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+
+form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 85%;
+  max-width: 600px;
+  border-radius: 0;
+  border: 1px solid #000;
+}
+
+form input {
+  background: #f1f1f1;
+  border: 1px solid #000;
+  color: #111;
+  margin: 1% 0% 1% -2%;
+  padding: 2%;
+  outline: none;
+}
+
+form button {
+  padding: 5px;
+  background: var(--yellow);
+  color: var(--black);
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  border: 1px solid #000;
+}
+/* end sign-up form */
+
+/* npub wrap */
 .npub {
   word-wrap: break-word;
 }
-body {font-family: "Open Sans"}
-h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+/* end npub wrap */
 
 /* Tooltip */
 .tooltip {

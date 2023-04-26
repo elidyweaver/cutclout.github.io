@@ -73,9 +73,20 @@
     <!-- Header -->
     <header class="w3-container w3-center w3-padding-48">
       <h1 class="w3-xxxlarge"><b>cut clout</b></h1>
-      <h3>nostr + bitcoin zunday zine</h3>
+      <h3>nostr + bitcoin</h3>
     </header>
     <!-- cut clout thought -->
+    <!--- sign up form --->
+  <div class="w3-content" style="max-width:100%">
+    <div class="zinecontainer">
+      <form action="scripts/subscribe.php" method="POST">
+        <h3>sign up for the zine</h3>
+        <p class="w3-large">get it as a nostr DM every sunday</p>
+        <input type="text" name="Name" placeholder="name or nym" required>
+        <input type="text" name="NostrNpub" placeholder="nostr npub" required>
+        <button type="submit" class="btn_email">sign me up</button>
+    </div>
+  </div>
     <!-- a day in nostr-->
   <div class="w3-content w3-black w3-padding-32" style="max-width:100%">
         <!--- row 00 --->
