@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial scale=1.0">
   <title>web of trust</title>
   <meta name="Keywords" content="nostr, a day in nostr">
-  <meta property="og:description" content="https://cutclout.com/images/cut-clout-social.png">
+  <meta property="og:description" content="...">
   <meta property="og:image" content="https://cutclout.com/images/cut-clout-social.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1280">
@@ -29,43 +29,31 @@
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
         onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-amber">cut clout</a>
-      <!--- about --->
-      <a href="../about/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">about</a>
-      <!--- 101 --->
-      <a href="../101/index.html" alt="101" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">101</a>
       <!--- core --->
       <a href="../core/index.html" alt="core principles" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">core</a>
       <!--- value4value --->
       <a href="../value4value/index.html" alt="value 4 value" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">value4value</a>
       <!--- web of trust --->
-      <a href="../web-of-trust/index.html" alt="web of trust" class="w3-bar-item w3-button w3-padding-large w3-light-grey w3-hover-amber w3-hide-small">web of trust</a>
+      <a href="#" alt="web of trust" class="w3-bar-item w3-button w3-padding-large w3-light-grey w3-hover-amber w3-hide-small">web of trust</a>
       <!--- culture --->
       <a href="../culture/index.html" alt="culture" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">culture</a>
-      <!--- donate --->
-      <a href="https://donate.nostr-ings.com" target="new"
-        class="w3-bar-item w3-button w3-padding-large w3-white w3-hover-amber w3-hide-small">donate</a>
+      <!--- about --->
+      <a href="../about/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-amber w3-hide-small">about</a>
     </div>
   </div>
 
   <!-- Navbar on small screens-->
   <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <!--- cut clout --->
-    <a href="../index.html" alt="about" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">cut clout</a>
-    <!--- about --->
-    <a href="../about/index.html" alt="about" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">about</a>
-    <!--- 101 --->
-    <a href="../101/index.html" alt="101" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">101</a>
     <!--- core --->
     <a href="../core/index.html" alt="core" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">core</a>
     <!--- value4value --->
     <a href="../value4value/index.html" alt="value4value" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">value4value</a>
     <!--- web of trust --->
-    <a href="../web-of-trust/index.html" alt="web of trust" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">web of trust</a>
+    <a href="#" alt="web of trust" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">web of trust</a>
     <!--- culture --->
     <a href="../culture/index.html" alt="culture" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">culture</a>
-    <!--- donate --->
-    <a href="https://donate.nostr-ings.com" target="new" class="w3-bar-item w3-button w3-padding-large w3-white w3-hover-amber"
-      onclick="myFunction()">donate</a>
+    <!--- about --->
+    <a href="../about/index.html" alt="about" class="w3-bar-item w3-button w3-padding-large w3-hover-amber" onclick="myFunction()">about</a>
   </div>
   <hr class="w3-border-black">
   <div class="w3-content" style="max-width:1600px">
@@ -76,28 +64,33 @@
       <h2 class="w3-xlarge"></h2>
     </header>
     <hr>
-    <!-- Notes on Privacy-->
-    <div class="w3-container w3-left-align w3-padding-32" id="privacy">
-      <h2>On Privacy</h2>
-      <p class="w3-large">Everyday we open a window to peer through conversations, waving what seems to be a flag of FOMO into the nostr cyberspace. But is it really FOMO?</p>
-      <p class="w3-large">While, in other platforms, we may be distracted by ads and click-bait headlines that bury free human thought and conversation, today, we open our mobile phones to human connection, at nostr.</p>
-    </div>
     <!-- Notes on Spam-->
-    <div class="w3-container w3-left-align w3-padding-32" id="spam">
-      <h2>How do you prove you're real?</h2>
+    <div class="w3-container w3-left-align w3-padding-32">
+      <h2 id="real">How do you prove you're real?</h2>
       <p class="w3-large">Each human being is so unique and creative in their own way, that, it is hard to fathom anyone wanting to be an impostor. Impostors exist, and it can be a challenge to know the difference.</p>
       <p class="w3-large">If you know someone in real life, it is easy to exchange your npubs, but what happens when you don't?</p>
       <p class="w3-large">In nostr you can tie your account to your website as a way of verifying you identity through what's called a NIP05. In some nostr products, you can see your name with an @yourwebsite.com This is particularly useful for content creators, proving you're the author, or you belong to that organization.</p>
       <p class="w3-large">To help tell you apart from bots, some websites offer NIP05's. It doesn't end with your domain, it ends with theirs, but it is still one strung higher in the ladder of trust.</p>
       <p class="w3-large">Combine that with other trust signals to reveal that unique mixture that makes you, you: Your interactions with the community, creating and sharing your own content, sharing what you find interesting, in other words, just being you is a trust signal.</p>
       <p class="w3-large">What makes you who you are?</p>
-    </div>
-    <!-- Notes on Spam-->
-    <div class="w3-container w3-left-align w3-padding-32" id="spam">
+      <hr id="getting-back-our-data">
+      <h2>Getting back our data</h2>
+      <p class="w3-large">Apps are a bridge to the services we want, from social media to health apps. We express part of our lives through them. Many apps are built around advertising from data gathering, but new doors are opening for building trust &amp; giving back control to people over their content &amp; identities.</p>
+      <p class="w3-large">Many apps are built to track and remember as much information as they can about us, instead of getting only what they need and building trust over time as new services are needed, or through developing stronger relationships with consumers.</p>
+      <p class="w3-large">From the moment you download an app, it can gather data &amp; keep doing so even when we're not using them. It's as if, before we sit down at a restaurant to place an order, they already have our contact &amp; payment information, &amp; more access than the "gossip" of the town would know.</p>
+      <p class="w3-large">What <a href="https://developer.apple.com/app-store/app-privacy-details/#data-type " title="Types of data collected, Apple " target="new">they could know</a> is hard to imagine: A full list of our friends, family &amp; acquaintances, our user content (emails, photos, recordings...), where we live and where we are at any moment in time, demographics and psychographics (sensitive info)....</p>
+      <p class="w3-large">We are often using "free" services in exchange for our data, which is used and sold for advertising.  This often comes at the expense of privacy &amp; security. Does this practice develop consumer loyalty or is it invasive and spammy? What could be better ways?</p>
+      <p class="w3-large">Many times we are locked into using an app, because we need access to their services &amp; cannot take our data with us. Building trust &amp; accountability can come with offering choices to consumers, &amp; those can come from giving us control over our data.</p>
+      <p class="w3-large">It is a joy to see how self-custody bitcoin apps, and many nostr apps, often choose to gather as little data as possible. This is a path to rethinking the advertising model. More paths are in the works, like Web5 by <a href="https://www.tbd.website/" title="tbd" target="new">TBD</a> &amp; the community at large.</p>
+      <p class="w3-large">How will these efforts encourage the growth and development of alternative creative solutions for sustainable product building that protect the individual's privacy and gives back control of data &amp; identity?</p>
+      <p class="w3-large">Who'll be the service providers of the future? What will they prioritize when building their products? Will they discover that instead of gathering information obscurely in the background, they can walk other paths to develop stronger loyal relationships with their customers?</p>
+      <p class="w3-large">Will many people understand the importance of being in control of their identity, choosing levels of trust &amp; privacy, knowing they can deny or revoke access to their information? Will they be able to carry their identities back with them, just as we can walk out of a restaurant?</p>
+      <hr id="spam">
       <h2>On Spam</h2>
       <h3>Something is out there...</h3>
-      <p class="w3-large">As your posts float in cyberspace and get shared between servers, called relays, something else is out there too. No, it's not an alien creature from a sci-fi movie, it's spam. A bit like galactic trash, it can fill feeds with mountains of gibberish, preventing real content and conversation from happening.</p>
+      <p class="w3-large">As your notes float in nostr cyberspace and get shared between servers, called relays, something else is out there too. No, it's not an alien creature from a sci-fi movie, it's spam. A bit like galactic trash, it can fill feeds with mountains of gibberish, preventing real content and conversation from happening.</p>
       <p class="w3-large">One of the ways some in the nostr community are addressing spam, is through paid relays. At this moment, the relays offering this service, use it like a ticket in, where you pay a few sats (1,000 to 5,000) to cross through their gates. Spam is generated in such large numbers, that having to pay relays, can add up quickly, hence deterring its practice. Less spam leads to a bit of zen, or perhaps eden.</p>
+      <p class="w3-large">Another way to address spam is to have home feeds based on follows and their follows, and global feeds based on specific relays. Many nostr clients are adding unique settings that can be tweaked not only to prevent some spam, but to shape your own experience.</p>
       <p class="w3-large">Nostr thrives on freedom of expression. There is no perfect solution to address spam. Multiple avenues with different approaches will let people choose their nostr paths, whether they have sats to give or not.</p>
       <p class="w3-large">What solutions are you seeing to address spam?</p>
     </div>
@@ -110,9 +103,6 @@
       <p>by elidy weaver
       <p>healing our connection to technology</p>
       <p class="npub">nostr: npub1a7n2h5y3gt90y00mwrknhx74fyzzjqw25ehkscje58x9tfyhqd5snyvfnu</p>
-      <a href="https://donate.nostr-ings.com/" class="w3-btn w3-white w3-hover-amber w3-round" target="new"><i
-          class="fa fa-bolt w3-margin-right"></i> donate</a>
-
     </div>
 
     <div class="w3-third w3-serif">
